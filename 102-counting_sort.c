@@ -7,17 +7,17 @@
  *
  * Return: The maximum integer in the array.
  */
-int find_max(int *array, int size)
+int find_max(int *arr, int size)
 {
-	int largest, i;
+	int max, i;
 
-	for (largest = array[0], i = 1; i < size; i++)
+	for (max = arr[0], i = 1; i < size; i++)
 	{
-		if (array[i] > largest)
-			largest = array[i];
+		if (arr[i] > max)
+			max = arr[i];
 	}
 
-	return (largest);
+	return (max);
 }
 
 /**
