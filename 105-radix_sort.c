@@ -54,11 +54,10 @@ void counting_sort_radix(int *arr, size_t size, int sig, int *buff)
 /**
  * radix_sort - Sort an array of integers in ascending
  *              order using the radix sort algorithm.
- * @array: An array of integers.
+ * @arr: An array of integers.
  * @size: The size of the array.
  *
- * Description: Implements the LSD radix sort algorithm. Prints
- * the array after each significant digit increase.
+ * Return: Nothing
  */
 void radix_sort(int *array, size_t size)
 {
