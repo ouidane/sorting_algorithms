@@ -73,8 +73,8 @@ void lomuto_sort(int *array, size_t size, int start, int end)
 	if (end - start > 0)
 	{
 		pivot = partition_lomuto(array, size, start, end);
-		_quick_sort(array, size, start, pivot - 1);
-		_quick_sort(array, size, pivot + 1, end);
+		lomuto_sort(array, size, start, pivot - 1);
+		lomuto_sort(array, size, pivot + 1, end);
 	}
 }
 
