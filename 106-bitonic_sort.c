@@ -49,6 +49,8 @@ void sort_bitonic(int *array, size_t n, size_t start, size_t length,
  * @start: The starting index of a block of the building bitonic sequence.
  * @length: The size of a block of the building bitonic sequence.
  * @direction: The direction to sort the bitonic sequence block in.
+ *
+ * Return: Nothing
  */
 void build_bitonic(int *array, size_t n, size_t start, size_t length,
 		char direction)
@@ -76,8 +78,7 @@ void build_bitonic(int *array, size_t n, size_t start, size_t length,
  * @array: An array of integers.
  * @size: The size of the array.
  *
- * Description: Prints the array after each swap. Only works for
- * size = 2^k where k >= 0 (ie. size equal to powers of 2).
+ * Return: Nothing
  */
 void bitonic_sort(int *array, size_t size)
 {
