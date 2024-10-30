@@ -4,6 +4,8 @@
  * _swap - Swap two integers in an array.
  * @i: The first integer to swap.
  * @j: The second integer to swap.
+ *
+ * Return: Nothing.
  */
 void _swap(int *i, int *j)
 {
@@ -19,7 +21,7 @@ void _swap(int *i, int *j)
  * @array: An array of integers to sort.
  * @size: The size of the array.
  *
- * Description: Prints the array after each swap.
+ * Return: Nothing.
  */
 void bubble_sort(int *array, size_t size)
 {
