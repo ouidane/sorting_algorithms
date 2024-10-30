@@ -59,7 +59,7 @@ void counting_sort_radix(int *arr, size_t size, int sig, int *buff)
  *
  * Return: Nothing
  */
-void radix_sort(int *array, size_t size)
+void radix_sort(int *arr, size_t size)
 {
 	int max, sig, *buff;
 
