@@ -15,6 +15,7 @@ void _swap(int *i, int *j)
 	*i = *j;
 	*j = tmp;
 }
+
 /**
  * sort_bitonic - Sort a bitonic sequence inside an array of integers.
  * @array: An array of integers.
@@ -42,6 +43,7 @@ void sort_bitonic(int *array, size_t n, size_t start, size_t length,
 		sort_bitonic(array, n, start + step, step, direction);
 	}
 }
+
 /**
  * build_bitonic - Convert an array of integers into a bitonic sequence.
  * @array: An array of integers.
