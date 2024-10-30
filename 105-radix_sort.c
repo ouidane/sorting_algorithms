@@ -21,7 +21,7 @@ int find_max(int *arr, int size)
 }
 
 /**
- * radix_counting_sort - Sort the significant digits of an array of integers
+ * counting_sort_radix - Sort the significant digits of an array of integers
  *                       in ascending order.
  * @arr: An array of integers.
  * @size: The size of the array.
