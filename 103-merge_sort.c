@@ -1,5 +1,5 @@
 #include "sort.h"
-
+#include <stdio.h>
 /**
  * merge_subarray - Sort a subarray of integers.
  * @subarray: A subarray of an array of integers to sort.
