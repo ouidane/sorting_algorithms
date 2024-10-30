@@ -2,7 +2,7 @@
 
 /**
  * find_max - Find the maximum value in an array of integers.
- * @array: An array of integers.
+ * @arr: An array of integers.
  * @size: The size of the array.
  *
  * Return: The maximum integer in the array.
